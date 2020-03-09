@@ -1,5 +1,4 @@
 from django.db import models
-from location_field.models.plain import PlainLocationField
 from django.core.validators import MaxValueValidator, MinValueValidator
 from imagekit.models import ProcessedImageField
 from imagekit.processors import SmartResize, ResizeToFill

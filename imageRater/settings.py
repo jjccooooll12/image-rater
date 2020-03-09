@@ -128,7 +128,7 @@ CORS_ORIGIN_WHITELIST = [
 
     'http://localhost:8080', 
 
-    'https://my-image-rater.web.app'
+    'https://my-image-rater-c2482.web.app'
 
 ] 
 

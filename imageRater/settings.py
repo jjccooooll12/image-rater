@@ -128,6 +128,8 @@ CORS_ORIGIN_WHITELIST = [
 
     'http://localhost:8080', 
 
+    'https://my-image-rater.web.app'
+
 ] 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  

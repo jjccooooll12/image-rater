@@ -15,7 +15,7 @@ class ImageViewSet(viewsets.ModelViewSet):
     queryset = Image.objects.all()
     serializer_class = ImageSerializer
     authentication_classes = (TokenAuthentication, )
-    permission_classes = (IsAuthenticated, )
+    permission_classes = (AllowAny, )
 
     @action(detail=True, methods=['POST'])
     def rate_image(self,request,pk=None):
@@ -47,7 +47,7 @@ class RatingViewSet(viewsets.ModelViewSet):
     queryset = Rating.objects.all()
     serializer_class = RatingSerializer
     authentication_classes = (TokenAuthentication, )
-    permission_classes = (IsAuthenticated, )
+    permission_classes = (AllowAny, )
 
     #Since we already created our own method rate_movie to update/create we make the
     #built-in Viewset one uneffective by overriding it

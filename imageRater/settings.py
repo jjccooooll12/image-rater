@@ -130,6 +130,8 @@ CORS_ORIGIN_WHITELIST = [
 
 ] 
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  
+
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES' : (
         'rest_framework.permissions.IsAuthenticated',

@@ -1,1 +1,0 @@
-web: gunicorn imageRater.wsgi --log-file -

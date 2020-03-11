@@ -4,7 +4,7 @@ An image-rater web app developed using Django + ReactJs and Bootstrap.
 The app allows to add a new image, insert a description and rate other users' images. 
 You can also update and delete the pictures.
 
-After succesfuly registering and logging in, on the left side there are the images along with scroller thumbnails that you can click on. By doing so it will appear on the right 
+After succesfuly registering and logging in, on the left side of the screen there are the images along with scroller thumbnails that you can click on. By doing so it will appear on the right 
 the user description and the info about the picture (i.e. the average score that the image got from the ratings and the number of
 users whom rated the image).
 

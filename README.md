@@ -9,7 +9,7 @@ the user description and the info about the picture (i.e. the average score that
 users whom rated the image).
 
 
-# Main challenges this web-app:
+# Main challenges of the web-app:
 
 - Make the app full-responsive and mobile-first using Bootstrap 4.
 - Upload and retrieve images in AWS S3, re-size them and display them responsively together with the text.

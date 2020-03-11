@@ -130,6 +130,8 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:8080', 
 
     'https://image-rater.web.app',
+
+    'https://image-rater.firebaseapp.com'
    
 ] 
 

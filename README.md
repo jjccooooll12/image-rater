@@ -1,4 +1,4 @@
-# image-rater
+# Image-rater
 An image-rater web app developed using Django + ReactJs and Bootstrap.
 
 The app allows to add a new image, insert a description and rate other users' images. 

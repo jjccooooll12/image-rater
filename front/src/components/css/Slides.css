@@ -1,0 +1,57 @@
+.card-body {
+    padding-bottom: 0vmin!important;
+    padding-top: 0vmin!important;
+  }
+  
+  
+  .slides ul {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0;
+  }
+  
+  .slides li {
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+  }
+  
+  .slides img {
+    border-radius: 2%;
+  }
+  
+  
+  .nopadding {
+    padding: 0!important ;
+  }
+  
+  .slides li:target {
+  z-index: 3;
+  -webkit-animation: slide 1s 1;
+  animation: slide 1s 1;
+  }
+  
+  .slides li:not(:target) {
+  -webkit-animation: hidden 1s 1;
+  animation: hidden 1s 1;
+  }
+
+  
+  @keyframes slide {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+  }
+  
+  @keyframes hidden {
+  0% {
+    z-index: 2;
+  }
+  100% {
+    z-index: 2;
+  }
+  }
+  

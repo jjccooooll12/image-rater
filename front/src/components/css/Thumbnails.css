@@ -1,0 +1,24 @@
+.thumbnails li {
+    list-style: none;
+  }
+  
+  .thumbnails ul {
+    border-radius: 2%;
+  }
+  
+  .content li a{
+    display: inline-block;
+    border: 1px solid rgba(255,255,255,.1);
+  }
+  
+  #content-1{
+    height: 13em;
+    margin-top: 90%;
+  }
+
+
+
+
+
+
+  

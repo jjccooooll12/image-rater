@@ -9,7 +9,7 @@ django-cors-headers==3.2.1
 django-imagekit==4.0.2
 django-s3direct==1.1.5
 django-storages==1.9.1
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 docutils==0.15.2
 jmespath==0.9.5
 pilkit==2.0
